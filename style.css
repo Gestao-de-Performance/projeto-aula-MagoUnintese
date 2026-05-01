@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #91c7de;
+    margin: 0 15vw;
+}
+
+header, section, footer{
+    margin: 5vw 0 7vw;
+}
+
+
+.flex{
+    display: flex;
+    gap: 10vw;
+}
+
