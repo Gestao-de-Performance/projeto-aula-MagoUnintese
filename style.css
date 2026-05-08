@@ -1,0 +1,90 @@
+:root{
+    --cor-botao-nav: #5A13B4;
+    --cor-buscar: #5913b471;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+input{
+    border: none;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+.marginLateraisSite{
+    margin: 0 10vw;
+}
+
+.marginSupInfSite{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.gap10{
+    gap: 10%;
+}
+
+.gap5{
+    gap: 5%;
+}
+
+/*Header*/
+
+nav, .flex{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    justify-content: space-between;
+}
+
+.corBotoesNav{
+    color: var(--cor-botao-nav);
+}
+
+.formBuscar{
+    border: 1px solid var(--cor-buscar);
+    padding: 1% 5%;
+    display: flex;
+}
+
+.corPlaceholder::placeholder{
+    color: var(--cor-buscar);
+}
+
+.botaoAmbiVir{
+    white-space: nowrap;
+}
+
+/*
+Mobile: 414px
+Tablet: 768px
+Desktop: 1440px
+
+Min Mobile: 320px
+Max Mobile: 767px
+*/
+
+@media(max-width: 767px){
+    nav, .flex{
+        flex-wrap: wrap;
+    }
+}
+
+/*Fim Header*/
