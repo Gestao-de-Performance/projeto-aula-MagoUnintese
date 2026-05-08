@@ -80,6 +80,9 @@ Desktop: 1440px
 Min Mobile: 320px
 Max Mobile: 767px
 */
+@media (max-width: 1024px){
+
+}
 
 @media(max-width: 767px){
     nav, .flex{
